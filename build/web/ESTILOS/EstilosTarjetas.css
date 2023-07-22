@@ -1,0 +1,40 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.ds-left-menu {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: black;
+    color: aliceblue;
+    position: static;
+}
+
+.ds-right-menu {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    gap: 25px;
+}
+
+.panel-header {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+}
+
+.contenedor-cards {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0 auto;
+}
